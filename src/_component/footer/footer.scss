@@ -27,14 +27,8 @@
   padding: 1rem;
 }
 .footer__link {
-  color: $color-astral;
   padding: 1.5rem;
   display: inline-block;
-  text-decoration: none;
-
-  &:hover {
-    text-decoration: underline;
-  }
 }
 
 .social__icon {

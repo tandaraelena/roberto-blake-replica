@@ -26,4 +26,17 @@ body {
 p {
   font-size: 1.6rem;
 }
+a {
+  text-decoration: none;
+  color: $color-astral;
+  &:hover {
+    text-decoration: underline;
+  }
+}
 
+hr {
+  border-top: 0.1rem solid $color-gallery;
+  margin: 1.5rem;
+}
+
+@import 'landing-content';
