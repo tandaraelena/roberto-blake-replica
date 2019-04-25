@@ -55,7 +55,7 @@
 .header__menu-list {
   // display: none;
   transition: 0.25s;
-  position: fixed;
+  position: absolute;
   top: -100%;
   left: 0;
   right: 0;
@@ -91,11 +91,6 @@
 
 .rbcf-circle-down {
   padding: 0 1rem;
-}
-.header__top {
-  position: fixed;
-  left: 0;
-  right: 0;
 }
 
 .header__body {
