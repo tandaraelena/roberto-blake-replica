@@ -9,17 +9,21 @@
   justify-content: space-between;
   align-items: center;
   border: 0.1rem solid $color-mercury;
-  position: relative;
   background-color: $color-mine-shaft;
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
 }
 
 .header__name {
-  font-size: 1.8rem;
+  font-size: 2rem;
   padding-left: 1.5rem;
   display: inline-block;
 }
 .rbcf-menu {
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   padding: 0.3rem;
   margin-right: 0.8rem;
   border-radius: 0.3rem;
@@ -33,7 +37,7 @@
     & .header__menu-link:after {
       font-family: 'roberto-blake-custom-font' !important;
       content: "\e902";
-      font-size: 1.7rem;
+      font-size: 2rem;
     }
   }
 }
@@ -41,7 +45,7 @@
 .header__menu-link,
 .header__menu-sub-link {
   color: $color-white;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   text-decoration: none;
   padding: 0.6rem 1.5rem;
   display: block;
@@ -52,11 +56,12 @@
   // display: none;
   transition: 0.25s;
   position: fixed;
-  top: 3.4rem;
+  top: -100%;
   left: 0;
   right: 0;
   border: 0.1rem solid $color-mercury;
   padding: 0;
+  z-index: 1;
 }
 
 #toggle-top-menu,
@@ -66,7 +71,7 @@
 
 #toggle-top-menu:checked + .header__menu-list {
   // display: inherit;
-  top: -100%;
+  top: 5.2rem;
   padding: 0;
 }
 
