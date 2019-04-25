@@ -52,4 +52,12 @@ hr {
   }
 }
 
+.text-justify {
+  text-align: justify;
+
+  p {
+    padding: 1rem 0;
+  }
+}
+
 @import 'landing-content';
