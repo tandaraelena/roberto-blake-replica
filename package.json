@@ -13,8 +13,8 @@
   },
   "//": "CUSTOM CONFIGURATION",
   "config": {
-    "customUrl": "http://pug-starter.codetap.io",
-    "githubUrl": "http://github.com/marianzburlea/pug-starter.git",
+    "customUrl": "http://roberto-blake-replica.tandaraelena",
+    "githubUrl": "http://github.com/tandaraelena/roberto-blake-replica.git",
     "deployToGithubIo": true,
     "directory": {
       "development": "tmp",
@@ -52,7 +52,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marianzburlea/pug-starter.git"
+    "url": "git+https://github.com/tandaraelena/roberto-blake-replica.git"
   },
   "keywords": [
     "pug",
@@ -63,9 +63,9 @@
   "author": "Marian Zburlea",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/marianzburlea/pug-starter/issues"
+    "url": "https://github.com/tandaraelena/roberto-blake-replica/issues"
   },
-  "homepage": "https://github.com/marianzburlea/pug-starter#readme",
+  "homepage": "https://github.com/tandaraelena/roberto-blake-replica#readme",
   "devDependencies": {
     "@babel/cli": "7.2.3",
     "@babel/core": "7.3.3",
