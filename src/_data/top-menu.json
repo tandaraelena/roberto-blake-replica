@@ -52,12 +52,12 @@
   ]
 },
 {
-  "href": "/press",
+  "href": "/press.php",
   "text": "Press",
   "target": ""
 },
 {
-  "href": "/contact",
+  "href": "/contact.php",
   "text": "Contact",
   "target": ""
 }
