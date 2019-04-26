@@ -40,12 +40,14 @@ hr {
 }
 
 .youtube-video-16-by-9 {
-  width: 100%;
+  
   // get the percentage for 16 by 9
   padding-top: 56.25%;
   position: relative;
 
   iframe {
+    height: 100%;
+    width: 100%;
     position: absolute;
     top: 0;
     left: 0;
