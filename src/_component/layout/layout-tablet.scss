@@ -1,14 +1,10 @@
 @media screen and (min-width: 768px){
-.image-text__wrapper {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
+  .image-text__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 
-  // .image {
-  
-  // }
-
-  .text-justify {
-    padding: 0 2rem;
+    .text-justify {
+      padding: 0 2rem;
+    }
   }
- }
 }

@@ -93,28 +93,6 @@
   padding: 0 1rem;
 }
 
-
-%header__body {
-  height: 61.1rem;
-  background-position: center center;
-  background-size: cover;
-}
-
-.header__body--home {
-  background-image: url('/asset/image/robertoblake2016header.jpg');
-  @extend %header__body;
-} 
-
-.header__body--about {
-  background-image: url('/asset/image/robertoblake2016-design-header.jpg');
-  @extend %header__body;
-} 
-
-.header__body--training {
-  background-image: url('/asset/image/robertoblake2016-marketing-header.jpg');
-  @extend %header__body;
-}
-
 .header__footer {
   background-color: $color-mine-shaft;
   color: $color-white;
@@ -139,4 +117,25 @@
     padding: 1rem 1.5rem;
     text-align: center;
   }
+}
+
+%header__body {
+  height: 61.1rem;
+  background-position: center center;
+  background-size: cover;
+}
+
+.header__body--home {
+  background-image: url('/asset/image/robertoblake2016header.jpg');
+  @extend %header__body;
+} 
+
+.header__body--about {
+  background-image: url('/asset/image/robertoblake2016-design-header.jpg');
+  @extend %header__body;
+} 
+
+.header__body--training {
+  background-image: url('/asset/image/robertoblake2016-marketing-header.jpg');
+  @extend %header__body;
 }
