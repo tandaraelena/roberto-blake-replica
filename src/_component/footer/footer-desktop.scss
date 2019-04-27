@@ -1,0 +1,11 @@
+@media screen and (min-width: 1280px) {
+  .footer ul {
+    display: flex;
+    flex-wrap: wrap;
+
+    li {
+      width: 25%;
+      list-style-type: none;
+    }
+  }
+}

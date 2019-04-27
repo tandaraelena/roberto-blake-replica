@@ -5,7 +5,6 @@
   font-weight: normal;
   color: $color-white;
   border-radius: 0.5rem;
-  text-transform: uppercase;
   
   &:hover {
     background-color: $color-fuel-yellow;
@@ -13,12 +12,13 @@
   }
 }
 .button__download {
+  text-transform: uppercase;
   font-size: 2rem;
   padding: 1rem 1.5rem;
   @extend %button;
 }
 .button__small {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   padding: 0.5rem 1rem;
   @extend %button;
   margin: 0.8rem 0;
