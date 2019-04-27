@@ -74,4 +74,31 @@ h3 {
   font-size: 1.2rem;
   padding: 1rem 3rem;
 }
+
+.no-disc {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.full-width {
+  width: 24rem;
+  height: 13.5rem;
+}
+
+%ul-list_design {
+  list-style: none;
+  font-size: 1.2rem;
+}
+
+.content-side ul {
+  @extend %ul-list_design;
+}
+
+.side-bar ul {
+  @extend %ul-list_design;
+  line-height: 1.5rem;
+}
 @import 'landing-content';
